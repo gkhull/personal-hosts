@@ -3,6 +3,10 @@
 # Matching domains are removed from the combined sources before the blacklist is added.
 @@||s.youtube.com^
 @@||analytics.google.com
+# local arpa
+@@||ghome.arpa^
+@@||phome.arpa^
+
 # doh entries
 @@||cloudflare-gateway.com^
 @@||dns.google^
